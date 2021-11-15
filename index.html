@@ -8,7 +8,7 @@
     <input id="omikuji_btn"type="button" value="音声の再生">
     <script>
          document.getElementById( "omikuji_btn" ).onclick = function() {
-            var rnd = Math.floor( Math.random() * 9 );
+            var rnd = Math.floor( Math.random() * 12 );
             var omikuji;
             const music = new Audio('CHKI0945.mp3');
             if (rnd === 0) omikuji = music.play();
@@ -28,6 +28,12 @@
             if (rnd === 7) omikuji = music8.play();
             const music9 = new Audio('1636734548.mp3');
             if (rnd === 8) omikuji = music9.play();
+             const music10 = new Audio('1636981787.mp3');
+            if (rnd === 9) omikuji = music10.play();
+             const music11 = new Audio('1636981535.mp3');
+            if (rnd === 10) omikuji = music10.play();
+             const music12 = new Audio('1636980996.mp3');
+            if (rnd === 11) omikuji = music10.play();
         }
     </script>
 </body>
